@@ -4,7 +4,7 @@
   "repository": "https://github.com/getfider/fider",
   "private": true,
   "dependencies": {
-    "markdown-it": "^8.4.1",
+    "markdown-it": "^10.0.0",
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
     "react-textarea-autosize": "^6.1.0",
