@@ -10,7 +10,8 @@
     "react-textarea-autosize": "^6.1.0",
     "react-toastify": "^4.0.0-rc.2",
     "semantic-ui-css": "2.2.14",
-    "semantic-ui-react": "^0.79.0"
+    "semantic-ui-react": "^0.79.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@types/markdown-it": "0.0.4",
@@ -39,5 +40,10 @@
     "webpack": "^4.5.0",
     "webpack-clean-obsolete-chunks": "^0.4.0",
     "webpack-cli": "^2.0.14"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
