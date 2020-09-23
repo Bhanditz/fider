@@ -5,12 +5,12 @@
   "private": true,
   "dependencies": {
     "markdown-it": "^8.4.1",
-    "react": "^16.3.1",
-    "react-dom": "^16.3.1",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
     "react-textarea-autosize": "^6.1.0",
-    "react-toastify": "^4.0.0-rc.2",
+    "react-toastify": "^4.0.0",
     "semantic-ui-css": "2.2.14",
-    "semantic-ui-react": "^0.79.0"
+    "semantic-ui-react": "^0.81.2"
   },
   "devDependencies": {
     "@types/markdown-it": "0.0.4",
